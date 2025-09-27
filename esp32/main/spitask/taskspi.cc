@@ -11,6 +11,11 @@
 #define SPI_IOPORT_SCLK	(GPIO_NUM_18)
 
 
+/**
+ * @brief Construct a new Spi Task:: Spi Task object
+ * @author Yuki.S
+ * @date 2025-09-28
+ */
 SpiTask::SpiTask()
 {
 	// Initialize SPI
